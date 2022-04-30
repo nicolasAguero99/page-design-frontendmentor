@@ -210,6 +210,7 @@ Main/Title/Info/Img
     flex-direction: column;
     animation: textH1 2s;
     position: relative;
+    z-index: -1;
 }
 
 @keyframes textH1 {
@@ -285,6 +286,7 @@ Main/Title/Info/Img
     width: 62%; 
     animation: image 2s;
     position: relative;
+    z-index: -1;
 }
 
 @keyframes image {
